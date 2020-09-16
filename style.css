@@ -31,6 +31,8 @@ body , html {
     width: 80%;
     padding: 20px;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 h1 {
     text-align: center;
@@ -96,3 +98,24 @@ li {
         width: 100%;
         height: 100%;
       }
+      .navbar {
+          text-align: justify;
+          top: 0px;
+          width: 100%;
+          overflow: hidden;
+          margin-bottom: 40px;
+      }
+      .navbar a {
+        display: inline-block ;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background: #ddd;
+        color: black;
+      }
+        .body {
+            margin-top:30px;
+        }
